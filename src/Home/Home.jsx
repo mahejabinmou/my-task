@@ -12,7 +12,7 @@ import Visual from "../Visual/Visual";
 
 const Home = () => {
   return (
-    <div className=" ">
+    <div className="  ">
       <Banner></Banner>
       <Visual></Visual>
       <DummySection></DummySection>
@@ -23,7 +23,6 @@ const Home = () => {
       <CarouselComponent></CarouselComponent>
       <Accordion></Accordion>
       <UnicefLogo></UnicefLogo>
-      <Footer></Footer>
     </div>
   );
 };

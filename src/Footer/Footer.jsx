@@ -3,9 +3,9 @@ import { LuSend } from "react-icons/lu";
 
 const Footer = () => {
   return (
-    <footer className="footer  bg-gray-800 pt-10 pb-4 max-w-[1200px] mx-auto  text-white">
+    <footer className="footer   p-4 pb-4 max-w-[1200px] mx-auto md:px-[120px] text-white">
       <nav>
-        <p className="max-w-[254px] mx-auto h-[72px] pt-16">
+        <p className="md:w-[254px] mx-auto h-[72px] pt-16">
           <small>
             Lepeakers is a company in the field of technology, we were founded
             in 1998
@@ -33,6 +33,7 @@ const Footer = () => {
           <div className="join">
             <input
               type="text"
+              d:max-
               placeholder="Enter your email address"
               className="input input-bordered join-item"
             />

@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar max-w-[1200px] mx-auto px-4 py-2">
+    <div className="navbar max-w-[1200px] mx-auto md:px-[120px] md:py-[30px] ">
       <div className="navbar-start flex items-center">
         <div className="dropdown">
           <div

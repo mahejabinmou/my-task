@@ -61,7 +61,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg">
+    <div className="max-w-[1200px] mx-auto p-4 md:px-[120px]  rounded-lg">
       <div className="text-center mb-4">
         <h1 className="text-3xl font-bold mb-6 text-white">
           Your Guide to Hassle-Free Event Registration

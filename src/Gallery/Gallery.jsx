@@ -1,11 +1,11 @@
 const Gallery = () => {
   return (
-    <div className="bg-gray-800 p-6 md:p-20 lg:p-[88px] text-white">
+    <div className=" px-4 max-w-[1200px] mx-auto md:px-[120px] text-white">
       <div className="flex flex-col md:flex-row justify-between items-center mb-6">
-        <div className="max-w-[186px] h-auto mb-4 md:mb-0">
+        <div className="md:w-[186px] h-auto mb-4 ">
           <h1 className="text-3xl font-bold">Gallery</h1>
         </div>
-        <div className="max-w-full md:max-w-[579px] h-auto">
+        <div className=" md:max-w-[579px] h-auto">
           <p>
             <small>
               "Find Togetherness and Friendship in Every Corner of Our Events"
@@ -17,9 +17,9 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+      <div className="flex flex-col md:flex-row  gap-4">
         <div>
-          <div className="max-w-full md:max-w-[605px] h-auto">
+          <div className="max-w-full md:max-w-[605px] h-auto pb-4">
             <img
               src="https://i.ibb.co/CtpKL8W/Frame-706122.png"
               alt=""
@@ -27,15 +27,15 @@ const Gallery = () => {
             />
           </div>
 
-          <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mt-5">
-            <div className="max-w-full md:max-w-[288px] h-auto">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className=" md:max-w-[288px] h-auto">
               <img
                 src="https://i.ibb.co/PZ1dtSq/Frame-706122-1.png"
                 alt=""
                 className="w-full h-auto"
               />
             </div>
-            <div className="max-w-full md:max-w-[288px] h-auto">
+            <div className=" md:max-w-[288px] h-auto">
               <img
                 src="https://i.ibb.co/HhXLvfW/Frame-706122-2.png"
                 alt=""

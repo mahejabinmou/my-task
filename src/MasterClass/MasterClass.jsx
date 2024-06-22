@@ -4,7 +4,7 @@ import { ImBackward } from "react-icons/im";
 
 const MasterClass = () => {
   return (
-    <div className="max-w-[1200px] mx-auto bg-gray-800 text-white">
+    <div className="max-w-[1200px] mx-auto  text-white">
       <div className="flex justify-between items-center ">
         <div className="max-w-[508px] h-[112px]">
           <h1 className="text-3xl font-bold ">

@@ -5,14 +5,14 @@ const Banner = () => {
       style={{
         backgroundImage:
           "linear-gradient(to bottom left, #12161700 0%, #121617 100%),url(https://i.ibb.co/Cw184YM/image.png)",
-        backgroundSize: "cover", // Cover ensures the image covers the container
+        backgroundSize: "cover",
         backgroundPosition: "center",
 
-        height: "778px", // Set height of the container
+        height: "778px",
       }}
     >
-      <div className="flex flex-col items-start justify-center  md:pr-[600px]  h-full max-w-[1150px] mx-auto text-white">
-        <div className="mb-6  ">
+      <div className="p-4 flex flex-col items-start justify-center md:pl-[120px]  md:pr-[510px]  h-full max-w-[1200px] mx-auto m-0 text-white">
+        <div className="  ">
           <h1 className="text-5xl">Witness The World’s Biggest</h1>
           <p className="pt-5 pb-5">
             Durga Puja is technically West Bengal’s largest religious festival,

@@ -1,15 +1,15 @@
 const Visual = () => {
   return (
-    <div className="bg-gray-800 p-6 md:p-20 lg:p-[88px]">
-      <div className="text-white text-center max-w-[1080px] mx-auto h-auto mb-7">
-        <h1 className="pb-7 text-2xl md:text-3xl lg:text-4xl font-bold">
+    <div className="  pt-[150px] max-w-[1200px] mx-auto h-auto">
+      <div className="text-white text-center   mb-7">
+        <h1 className="pb-7 text-2xl md:px-[180px] md:text-3xl lg:text-4xl font-bold">
           Lorem Ipsum is simply dummy text of the printing and typesetting
         </h1>
         <button className="bg-red-600 px-4 py-2 rounded-3xl">
           Discover Now
         </button>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="md:px-[120px] px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="md:self-end">
           <img
             className="w-full md:max-w-[373px] h-auto md:h-[407px]"
