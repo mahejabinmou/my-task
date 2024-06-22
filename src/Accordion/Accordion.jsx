@@ -61,7 +61,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-gray-800 rounded-lg ">
+    <div className="max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg">
       <div className="text-center mb-4">
         <h1 className="text-3xl font-bold mb-6 text-white">
           Your Guide to Hassle-Free Event Registration
@@ -73,16 +73,29 @@ const Accordion = () => {
           </small>
         </p>
       </div>
-      <div className="space-y-4">
-        {items.map((item, index) => (
-          <AccordionItem
-            key={index}
-            title={item.title}
-            content={item.content}
-            isOpen={openIndex === index}
-            onClick={() => handleItemClick(index)}
-          />
-        ))}
+      <div className="flex flex-wrap -mx-2">
+        <div className="w-full md:w-1/2 px-2">
+          {items.slice(0, 3).map((item, index) => (
+            <AccordionItem
+              key={index}
+              title={item.title}
+              content={item.content}
+              isOpen={openIndex === index}
+              onClick={() => handleItemClick(index)}
+            />
+          ))}
+        </div>
+        <div className="w-full md:w-1/2 px-2">
+          {items.slice(3).map((item, index) => (
+            <AccordionItem
+              key={index + 3}
+              title={item.title}
+              content={item.content}
+              isOpen={openIndex === index + 3}
+              onClick={() => handleItemClick(index + 3)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

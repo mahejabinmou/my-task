@@ -117,7 +117,7 @@ const CarouselComponent = () => {
               ))}
             </div>
           </div>
-          <div className="absolute inset-x-0 -bottom-10 flex justify-center mb-4">
+          <div className="absolute fixed inset-x-0 -bottom-16 flex justify-center mb-4">
             <button
               onClick={prevSlide}
               className="bg-white text-black p-2 rounded-full mx-2"
