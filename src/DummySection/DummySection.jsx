@@ -2,7 +2,7 @@ import React from "react";
 
 const DummySection = () => {
   return (
-    <div className="bg-gray-800 flex flex-col items-center justify-center py-8 ">
+    <div className="bg-gray-800 flex flex-col items-center justify-center py-8 p-4 ">
       <div className="max-w-[1200px] w-full mx-auto ">
         <div className="flex flex-col items-center mb-6">
           <h1 className="md:text-4xl font-bold text-white text-center">
