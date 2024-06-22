@@ -42,12 +42,12 @@ const CarouselComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 3) % events.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % events.length);
   };
 
   const prevSlide = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 3 + events.length) % events.length
+      (prevIndex) => (prevIndex - 1 + events.length) % events.length
     );
   };
 
@@ -69,10 +69,15 @@ const CarouselComponent = () => {
           <div className="flex overflow-hidden">
             <div
               className="flex transition-transform duration-500"
-              style={{ transform: `translateX(-${(currentIndex * 100) / 3}%)` }}
+              style={{
+                transform: `translateX(-${(currentIndex * 100) / 3}%)`,
+              }}
             >
               {events.map((event, index) => (
-                <div key={index} className="flex-shrink-0 w-1/3 p-2">
+                <div
+                  key={index}
+                  className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 p-2"
+                >
                   <div className="bg-gray-900 rounded-lg overflow-hidden">
                     <div className="relative">
                       <img
