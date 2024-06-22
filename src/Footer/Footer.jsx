@@ -3,7 +3,7 @@ import { LuSend } from "react-icons/lu";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-gray-800 max-w-[1200px] mx-auto  text-white">
+    <footer className="footer  bg-gray-800 p-2 pb-6 max-w-[1200px] mx-auto  text-white">
       <nav>
         <p className="max-w-[254px] mx-auto h-[72px] pt-16">
           <small>

@@ -53,7 +53,7 @@ const CarouselComponent = () => {
 
   return (
     <div className="bg-gray-800 py-10">
-      <div className="max-w-[1200px] mx-auto px-6">
+      <div className="max-w-[1200px] mx-auto px-8 md:p-[10px]">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <h2 className="text-4xl font-bold text-white">
             Explore and Join Our Exciting Lineup

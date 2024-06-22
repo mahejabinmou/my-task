@@ -1,6 +1,6 @@
 const ExploreMassart = () => {
   return (
-    <div className="bg-gray-800 max-w-[1200px] mx-auto p-6 md:p-12 lg:p-[120px] text-white">
+    <div className="bg-gray-800 max-w-[1200px] mx-auto p-6 md:p-20 lg:p-[10px]  text-white">
       <div className="pb-6 text-center">
         <h1 className="text-2xl md:text-3xl font-bold">
           More Explore in Massart
@@ -87,7 +87,7 @@ const ExploreMassart = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-4 mt-6">
+      <div className="flex flex-wrap justify-center gap-7 mt-6 ">
         <div className="w-full md:w-[45%] lg:w-[23%]">
           <img
             src="https://i.ibb.co/RyqHBcM/Group-1171274740.png"

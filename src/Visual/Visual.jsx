@@ -1,6 +1,6 @@
 const Visual = () => {
   return (
-    <div className="bg-gray-800 p-6 md:p-12 lg:p-[120px]">
+    <div className="bg-gray-800 p-6 md:p-20 lg:p-[88px]">
       <div className="text-white text-center max-w-[1080px] mx-auto h-auto mb-7">
         <h1 className="pb-7 text-2xl md:text-3xl lg:text-4xl font-bold">
           Lorem Ipsum is simply dummy text of the printing and typesetting
