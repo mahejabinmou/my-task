@@ -19,7 +19,6 @@ const Home = () => {
       <Gallery></Gallery>
       <ExploreMassart></ExploreMassart>
       <Button></Button>
-
       <CarouselComponent></CarouselComponent>
       <Accordion></Accordion>
       <UnicefLogo></UnicefLogo>

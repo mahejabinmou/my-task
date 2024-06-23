@@ -1,27 +1,40 @@
 import React, { useState } from "react";
-
+import { HiMiniMinusSmall, HiMiniPlusSmall } from "react-icons/hi2";
 const AccordionItem = ({ title, content, isOpen, onClick }) => (
-  <div className="border rounded-lg overflow-hidden mb-4">
+  <div className=" rounded-lg overflow-hidden mb-4 ">
     <button
       onClick={onClick}
-      className={`w-full text-left p-4 font-bold ${
-        isOpen ? "bg-red-600 text-white" : "bg-gray-200"
+      className={` w-full text-left p-4 font-bold flex justify-between items-center ${
+        isOpen
+          ? "md:px-[110px] md:pt-[40px] bg-buttonCustomColor text-white"
+          : "bg-white"
       } transition-colors duration-300`}
     >
       {title}
+      {isOpen ? (
+        <HiMiniMinusSmall className="text-buttonCustomColor bg-white h-8 w-8 flex items-center justify-center rounded-full" />
+      ) : (
+        <HiMiniPlusSmall className="text-black bg-circleColor h-8 w-8 flex items-center justify-center rounded-full" />
+      )}
     </button>
     <div
       className={`transition-max-height duration-300 ease-in-out overflow-hidden ${
         isOpen ? "max-h-96" : "max-h-0"
       }`}
     >
-      <div className="p-4 bg-white border-t">{content}</div>
+      <div
+        className={`md:px-[110px] md:pb-[40px] font-Poppins text-[18px] font-normal ${
+          isOpen ? "bg-buttonCustomColor" : "bg-white"
+        }  text-white`}
+      >
+        {content}
+      </div>
     </div>
   </div>
 );
 
 const Accordion = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0); // Set the first item as open by default
 
   const handleItemClick = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -61,7 +74,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="max-w-[1200px] mx-auto p-4 md:px-[120px]  rounded-lg">
+    <div className=" p-4 md:px-[120px] rounded-lg">
       <div className="text-center mb-4">
         <h1 className="text-3xl font-bold mb-6 text-white">
           Your Guide to Hassle-Free Event Registration

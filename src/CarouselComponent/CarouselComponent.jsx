@@ -52,12 +52,12 @@ const CarouselComponent = () => {
   };
 
   return (
-    <div className=" py-10 max-w-[1200px] mx-auto p-4 md:px-[120px]">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
-        <h2 className="text-4xl font-bold text-white">
+    <div className=" md:pb-[150px]  p-4 md:px-[120px] ">
+      <div className="flex flex-col md:flex-row justify-between md:pb-[57px] items-center gap-4 mb-6">
+        <h2 className="md:w-[508px] text-5xl font-semibold font-Inter text-white">
           Explore and Join Our Exciting Lineup
         </h2>
-        <p className="text-gray-300 mt-4 md:mt-0 max-w-md text-center md:text-left">
+        <p className="md:w-[567px] text-[16px] font-normal font-Poppins text-white">
           Explore a comprehensive list of nearby events conveniently accessible
           on our platform. Users have the opportunity to discover a diverse
           range of events and can seamlessly register directly through this
@@ -84,7 +84,7 @@ const CarouselComponent = () => {
                       alt={event.title}
                       className="w-full h-[300px] object-cover"
                     />
-                    <div className="absolute top-2 left-2 bg-red-600 text-white text-sm px-2 py-1 rounded z-10">
+                    <div className="absolute top-2 left-2 bg-buttonCustomColor text-white text-sm px-2 py-1 rounded z-10">
                       {event.date}
                     </div>
                   </div>
@@ -116,16 +116,16 @@ const CarouselComponent = () => {
             ))}
           </div>
         </div>
-        <div className="absolute fixed inset-x-0 -bottom-16 flex justify-center mb-4">
+        <div className="absolute md:pt-[50px] inset-x-0 -bottom-16 flex justify-center mb-4">
           <button
             onClick={prevSlide}
-            className="bg-white text-black p-2 rounded-full mx-2"
+            className="bg-white text-black h-10 w-10 flex items-center justify-center rounded-full mx-2"
           >
             &lt;
           </button>
           <button
             onClick={nextSlide}
-            className="bg-red-600 text-white p-2 rounded-full mx-2"
+            className="bg-buttonCustomColor text-white h-10 w-10 flex items-center justify-center rounded-full mx-2"
           >
             &gt;
           </button>
