@@ -10,6 +10,7 @@ export default {
         gradColor: "#50505080",
         circleColor: "#F3F5F6",
         footerColor: "#181E20",
+        emailColor: "#2D373A",
       },
     },
   },

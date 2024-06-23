@@ -35,8 +35,8 @@ const Footer = () => {
               <input
                 type="text"
                 d:max-
-                placeholder="Enter your email address"
-                className="input input-bordered join-item"
+                placeholder="Email address"
+                className="input input-bordered join-item bg-emailColor"
               />
               <button className="btn bg-red-600 join-item">
                 <LuSend />
