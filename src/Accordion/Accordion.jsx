@@ -82,7 +82,7 @@ const Accordion = () => {
   return (
     <div className="p-4 md:px-[120px] rounded-lg">
       <div className="text-center ">
-        <h1 className="text-3xl font-bold mb-6 text-white">
+        <h1 className="text-5xl font-semibold text-white">
           Your Guide to Hassle-Free Event Registration
         </h1>
         <p className="px-[294px] text-white text-[16px] pt-[20px] text-center pb-[52px]">
