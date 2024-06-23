@@ -14,10 +14,10 @@ const Banner = () => {
       }}
     >
       <div className=" flex flex-col h-[286px]  md:pl-[120px]  md:pr-[510px] md:pt-[236px] md:pb-[256px]    text-white">
-        <h1 className="text-[92px] font-bold font-Inter">
+        <h1 className="text-[92px] font-bold font-inter leading-[100px]">
           Witness The World’s Biggest
         </h1>
-        <p className="pt-[14px] pb-[30px] text-[16px] font-Inter font-normal text-customColor">
+        <p className="pt-[14px] pb-[30px] text-[16px] font-inter font-normal text-customColor">
           Durga Puja is technically West Bengal’s largest religious festival,
           centered on the goddess Durga, destroyer of the demon Mahishasura. But
           increasingly, Durga Puja is also the world’s largest publicly funded

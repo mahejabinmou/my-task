@@ -11,6 +11,14 @@ export default {
         circleColor: "#F3F5F6",
         footerColor: "#181E20",
         emailColor: "#2D373A",
+        bodyColor: "#212525",
+      },
+
+      fontFamily: {
+        inter: ["Inter"],
+        poppins: ["Poppins"],
+        "plus-jakarta-sans": ["Plus Jakarta Sans"],
+        roboto: ["Roboto"],
       },
     },
   },

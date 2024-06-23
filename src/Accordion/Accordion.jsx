@@ -14,7 +14,7 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }) => (
           <span className="font-semibold text-[32px]">{number}</span>
         </div>
         <div className="w-5/6 flex justify-between items-center">
-          <span>{title}</span>
+          <span className="font-inter">{title}</span>
           {isOpen ? (
             <HiMiniMinusSmall className="text-buttonCustomColor bg-white h-8 w-8 flex items-center justify-center rounded-full" />
           ) : (
@@ -29,7 +29,7 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }) => (
       }`}
     >
       <div
-        className={`p-4 md:px-[110px] md:pb-[40px] font-Poppins text-[18px] font-normal ${
+        className={`p-4 md:px-[110px] md:pb-[40px] font-plus-jakarta-sans text-[18px] font-normal ${
           isOpen ? "bg-buttonCustomColor" : "bg-white"
         } text-white`}
       >

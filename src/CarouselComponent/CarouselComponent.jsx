@@ -52,12 +52,12 @@ const CarouselComponent = () => {
   };
 
   return (
-    <div className=" md:pb-[150px]  p-4 md:px-[120px] ">
-      <div className="flex flex-col md:flex-row justify-between md:pb-[57px] items-center gap-4 mb-6">
-        <h2 className="md:w-[508px] text-5xl font-semibold font-Inter text-white">
+    <div className=" md:pb-[150px] md:px-[120px] ">
+      <div className="flex flex-col md:flex-row justify-between md:pb-[49px] gap-4">
+        <h2 className="md:w-[508px] leading-[56px] text-5xl font-semibold font-inter text-white">
           Explore and Join Our Exciting Lineup
         </h2>
-        <p className="md:w-[567px] text-[16px] font-normal font-Poppins text-white">
+        <p className="md:w-[567px] text-[16px] leading-[24px] font-normal font-poppins text-white">
           Explore a comprehensive list of nearby events conveniently accessible
           on our platform. Users have the opportunity to discover a diverse
           range of events and can seamlessly register directly through this

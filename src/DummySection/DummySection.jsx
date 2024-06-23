@@ -4,7 +4,7 @@ const DummySection = () => {
   return (
     <div className="   flex flex-col items-center justify-center mt-[150px] ">
       <div className=" flex flex-col items-center mb-6">
-        <h1 className="md:text-[52px] font-bold font-Inter text-center  md:px-[388px]  md:mb-[64px]  text-white ">
+        <h1 className="md:text-[52px] font-bold font-inter text-center  md:px-[388px]  md:mb-[64px]  text-white ">
           Lorem Ipsum is simply dummy
         </h1>
       </div>

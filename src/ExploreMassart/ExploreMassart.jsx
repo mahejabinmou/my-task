@@ -5,13 +5,15 @@ const ExploreMassart = () => {
         <h1 className="text-2xl md:text-3xl font-bold">
           More Explore in Massart
         </h1>
-        <p className="mt-2 text-sm md:text-textColor text-[16px] font-normal font-Inter">
+        <p className="mt-2 text-sm md:text-textColor text-[16px] font-normal font-inter">
           Exclusive Content You Can Access
         </p>
       </div>
 
       <div className="flex flex-wrap md:pb-[37px]  gap-3 mb-6">
-        <button className="text-buttonCustomColor p-2">Original Videos</button>
+        <button className="bg-buttonCustomColor p-2 text-white">
+          Original Videos
+        </button>
         <button className=" p-2">Born Today</button>
         <button className=" p-2">Top News</button>
         <button className=" p-2">Editors Choice</button>
@@ -27,7 +29,7 @@ const ExploreMassart = () => {
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#2F2E2E] to-[#2F2E2E00] p-4">
               <button className="bg-gradColor mb-2">Interview</button>
-              <p className="text-[24px] font-Inter font-normal text-white">
+              <p className="text-[24px] font-inter font-normal text-white">
                 On Set with the Stars: Getting to Know the Cast of Eleanor’s
                 Night
               </p>
@@ -43,7 +45,7 @@ const ExploreMassart = () => {
                 alt=""
                 className="pb-2"
               />
-              <p className=" text-[18px] font-medium font-Inter ">
+              <p className=" text-[18px] font-medium font-inter ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
@@ -55,21 +57,21 @@ const ExploreMassart = () => {
                 alt=""
                 className="pb-2"
               />
-              <p className=" text-[18px] font-medium font-Inter">
+              <p className=" text-[18px] font-medium font-inter">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 pt-12">
+          <div className="flex flex-col md:flex-row gap-4 ">
             <div className="md:w-[302px] md:h-[277px]">
               <img
                 src="https://i.ibb.co/PCmvX3P/picture-3.png"
                 alt=""
                 className="pb-2"
               />
-              <p className=" text-[18px] font-medium font-Inter">
+              <p className=" text-[18px] font-medium font-inter">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
@@ -80,7 +82,7 @@ const ExploreMassart = () => {
                 alt=""
                 className="pb-2"
               />
-              <p className="mt-2 text-[18px] font-medium font-Inter">
+              <p className="mt-2 text-[18px] font-medium font-inter">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>

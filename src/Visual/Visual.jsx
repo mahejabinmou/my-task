@@ -2,7 +2,7 @@ const Visual = () => {
   return (
     <div className="  pt-[150px]  h-auto">
       <div className="text-white text-center   ">
-        <h1 className=" md:text-[52px] font-bold font-Inter md:px-[180px]   ">
+        <h1 className=" md:text-[52px] font-bold font-inter md:px-[180px]   ">
           Lorem Ipsum is simply dummy text of the printing and typesetting
         </h1>
         <button className="bg-buttonCustomColor px-4  h-[50px] mt-[50px] mb-[50px] rounded-3xl">

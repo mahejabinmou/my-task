@@ -3,10 +3,10 @@ const Gallery = () => {
     <div className=" px-4  md:px-[120px] md:pt-[150px] text-white">
       <div className="flex flex-col md:pb-[52px] gap-[445px] md:flex-row justify-between items-center ">
         <div className="md:w-[186px] h-auto  ">
-          <h1 className="text-5xl font-semibold font-Inter">Gallery</h1>
+          <h1 className="text-5xl font-semibold font-inter">Gallery</h1>
         </div>
         <div className=" md:w-[579px] h-auto">
-          <p className="text-[16px] font-normal font-Inter">
+          <p className="text-[16px] font-normal font-inter">
             "Find Togetherness and Friendship in Every Corner of Our Events"
             depicts moments of closeness and a sense of brotherhood that exist
             during our events. These photos show how shared experiences can
