@@ -37,16 +37,16 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-10 p-2 shadow bg-white rounded-box w-52"
             >
-              <li className="text-black">
+              <li className="text-black font-inter">
                 <a>Get Ticket</a>
               </li>
-              <li className="text-black">
+              <li className="text-black font-inter">
                 <a>Schedule</a>
               </li>
-              <li className="text-black">
+              <li className="text-black font-inter">
                 <a>Speakers</a>
               </li>
-              <li className="text-black">
+              <li className="text-black font-inter">
                 <a>FAQ</a>
               </li>
             </ul>
@@ -60,22 +60,22 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className="text-white">
+          <li className="text-white font-inter">
             <a>Get Ticket</a>
           </li>
-          <li className="text-white">
+          <li className="text-white font-inter">
             <a>Schedule</a>
           </li>
-          <li className="text-white">
+          <li className="text-white font-inter">
             <a>Speakers</a>
           </li>
-          <li className="text-white">
+          <li className="text-white font-inter">
             <a>FAQ</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="text-white bg-red-600 py-2 px-4 rounded-3xl">
+        <button className="text-white bg-red-600 py-2 px-4 rounded-3xl font-inter">
           Register
         </button>
       </div>
