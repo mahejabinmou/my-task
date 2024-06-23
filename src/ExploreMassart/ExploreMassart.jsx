@@ -92,33 +92,72 @@ const ExploreMassart = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center gap-7 mt-6 ">
-        <div className="w-full md:w-[45%] lg:w-[23%]">
+        <div className="relative w-full md:w-[45%] lg:w-[23%]">
           <img
-            src="https://i.ibb.co/RyqHBcM/Group-1171274740.png"
+            src="https://i.ibb.co/QcTHFVd/picture-6.png"
             alt=""
             className="w-full h-auto"
           />
+          <div className="absolute top-0 left-0 p-4 text-white ">
+            <button className="bg-gradColor bg-opacity-50 py-1 px-2 rounded-lg">
+              Interview
+            </button>
+          </div>
+          <p className="mt-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
         </div>
-        <div className="w-full md:w-[45%] lg:w-[23%]">
+
+        <div className="relative w-full md:w-[45%] lg:w-[23%]">
           <img
-            src="https://i.ibb.co/GsC4Nsy/Group-1171274739.png"
+            src="https://i.ibb.co/XXjYh7v/picture-7.png"
             alt=""
             className="w-full h-auto"
           />
+          <div className="absolute top-0 left-0 p-4 text-white ">
+            <button className="bg-gradColor bg-opacity-50 py-1 px-2 rounded-lg">
+              Interview
+            </button>
+          </div>
+          <p className="mt-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
         </div>
-        <div className="w-full md:w-[45%] lg:w-[23%]">
+
+        <div className="relative w-full md:w-[45%] lg:w-[23%]">
           <img
-            src="https://i.ibb.co/pdqF6Sr/Group-1171274737.png"
+            src="https://i.ibb.co/QrLvbLk/picture-8.png"
             alt=""
             className="w-full h-auto"
           />
+          <div className="absolute top-0 left-0 p-4 text-white ">
+            <button className="bg-gradColor bg-opacity-50 py-1 px-2 rounded-lg">
+              Interview
+            </button>
+          </div>
+          <p className="mt-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
         </div>
-        <div className="w-full md:w-[45%] lg:w-[23%]">
+
+        <div className="relative w-full md:w-[45%] lg:w-[23%]">
           <img
-            src="https://i.ibb.co/7r6xVgS/Group-1171274738.png"
+            src="https://i.ibb.co/52cr68L/picture-9.png"
             alt=""
             className="w-full h-auto"
           />
+          <div className="absolute top-0 left-0 p-4 text-white ">
+            <button className="bg-gradColor bg-opacity-50 py-1 px-2 rounded-lg">
+              Interview
+            </button>
+          </div>
+          <p className="mt-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
         </div>
       </div>
     </div>

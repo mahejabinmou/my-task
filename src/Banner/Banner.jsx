@@ -1,5 +1,4 @@
 import { IoMdFastforward } from "react-icons/io";
-import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,7 +16,7 @@ const Banner = () => {
         <h1 className="text-[92px] font-bold font-inter leading-[100px]">
           Witness The World’s Biggest
         </h1>
-        <p className="pt-[14px] pb-[30px] text-[16px] font-inter font-normal text-customColor">
+        <p className="text-[16px]  pt-[14px] pb-[30px] leading-[24px]  font-inter text-customColor">
           Durga Puja is technically West Bengal’s largest religious festival,
           centered on the goddess Durga, destroyer of the demon Mahishasura. But
           increasingly, Durga Puja is also the world’s largest publicly funded
