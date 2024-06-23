@@ -4,7 +4,7 @@ import { LuSend } from "react-icons/lu";
 const Footer = () => {
   return (
     <footer className="bg-footerColor">
-      <div className="footer   p-4 pb-4 md:px-[120px] text-white">
+      <div className="footer   pt-[40px] pb-[70px] md:px-[120px] text-white">
         <nav>
           <p className="md:w-[254px] mx-auto h-[72px] pt-16">
             <small>
