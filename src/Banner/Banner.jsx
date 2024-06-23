@@ -16,12 +16,14 @@ const Banner = () => {
         <h1 className="text-[92px] font-bold font-inter leading-[100px]">
           Witness The World’s Biggest
         </h1>
-        <p className="text-[16px]  pt-[14px] pb-[30px] leading-[24px]  font-inter text-customColor">
-          Durga Puja is technically West Bengal’s largest religious festival,
-          centered on the goddess Durga, destroyer of the demon Mahishasura. But
-          increasingly, Durga Puja is also the world’s largest publicly funded
-          art show.
-        </p>
+        <div className="w-[704px] text-[16px]  pt-[14px] pb-[30px] leading-[24px]  font-inter text-customColor">
+          <p>
+            Durga Puja is technically West Bengal’s largest religious festival,
+            centered on the goddess Durga, destroyer of the demon Mahishasura.
+            But increasingly, Durga Puja is also the world’s largest publicly
+            funded art show.
+          </p>
+        </div>
 
         <div className="flex flex-col w-full sm:flex-row space-x-0 sm:space-x-6 items-center font-bold">
           <button className="bg-red-600 px-4 py-2 rounded-3xl text-white text-lg font-poppins mb-4 sm:mb-0">
